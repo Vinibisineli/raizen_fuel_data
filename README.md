@@ -8,3 +8,6 @@
 
 `echo -e "AIRFLOW_UID=$(id -u)" > .env`
 
+pip install pandas
+pip install xlrd
+pip install psycopg2
