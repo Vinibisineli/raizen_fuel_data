@@ -1,0 +1,1976 @@
+[2022-07-02 01:09:56,234] {processor.py:153} INFO - Started process (PID=527) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:09:56,235] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:09:56,236] {logging_mixin.py:115} INFO - [2022-07-02 01:09:56,236] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:09:56,240] {logging_mixin.py:115} INFO - [2022-07-02 01:09:56,240] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2022-07-02 01:09:56,241] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:09:56,265] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.034 seconds
+[2022-07-02 01:09:59,261] {processor.py:153} INFO - Started process (PID=528) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:09:59,261] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:09:59,261] {logging_mixin.py:115} INFO - [2022-07-02 01:09:59,261] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:09:59,262] {logging_mixin.py:115} INFO - [2022-07-02 01:09:59,262] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 3
+    from operator.
+                 ^
+SyntaxError: invalid syntax
+[2022-07-02 01:09:59,263] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:09:59,274] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.016 seconds
+[2022-07-02 01:10:07,298] {processor.py:153} INFO - Started process (PID=536) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:07,299] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:10:07,299] {logging_mixin.py:115} INFO - [2022-07-02 01:10:07,299] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:07,300] {logging_mixin.py:115} INFO - [2022-07-02 01:10:07,300] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 3
+    from operator
+                ^
+SyntaxError: invalid syntax
+[2022-07-02 01:10:07,301] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:07,319] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.023 seconds
+[2022-07-02 01:10:27,342] {processor.py:153} INFO - Started process (PID=548) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:27,342] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:10:27,342] {logging_mixin.py:115} INFO - [2022-07-02 01:10:27,342] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:27,344] {logging_mixin.py:115} INFO - [2022-07-02 01:10:27,343] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 3
+    from operators.
+                  ^
+SyntaxError: invalid syntax
+[2022-07-02 01:10:27,344] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:27,360] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.021 seconds
+[2022-07-02 01:10:37,395] {processor.py:153} INFO - Started process (PID=558) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:37,402] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:10:37,402] {logging_mixin.py:115} INFO - [2022-07-02 01:10:37,402] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:37,404] {logging_mixin.py:115} INFO - [2022-07-02 01:10:37,403] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 3
+    from airflow.operators.
+                          ^
+SyntaxError: invalid syntax
+[2022-07-02 01:10:37,404] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:37,420] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.027 seconds
+[2022-07-02 01:10:39,411] {processor.py:153} INFO - Started process (PID=559) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:39,411] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:10:39,412] {logging_mixin.py:115} INFO - [2022-07-02 01:10:39,412] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:39,413] {logging_mixin.py:115} INFO - [2022-07-02 01:10:39,413] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 3
+    from airflow.operators.d
+                           ^
+SyntaxError: invalid syntax
+[2022-07-02 01:10:39,414] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:39,432] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.023 seconds
+[2022-07-02 01:10:43,448] {processor.py:153} INFO - Started process (PID=569) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:43,448] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:10:43,449] {logging_mixin.py:115} INFO - [2022-07-02 01:10:43,449] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:43,451] {logging_mixin.py:115} INFO - [2022-07-02 01:10:43,450] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 3
+    from airflow.operators.dummy
+                               ^
+SyntaxError: invalid syntax
+[2022-07-02 01:10:43,451] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:43,479] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.034 seconds
+[2022-07-02 01:10:46,458] {processor.py:153} INFO - Started process (PID=570) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:46,458] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:10:46,459] {logging_mixin.py:115} INFO - [2022-07-02 01:10:46,459] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:46,461] {logging_mixin.py:115} INFO - [2022-07-02 01:10:46,461] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 11
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2022-07-02 01:10:46,462] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:46,479] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.025 seconds
+[2022-07-02 01:10:52,478] {processor.py:153} INFO - Started process (PID=571) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:52,479] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:10:52,480] {logging_mixin.py:115} INFO - [2022-07-02 01:10:52,480] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:52,482] {logging_mixin.py:115} INFO - [2022-07-02 01:10:52,481] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 12
+    t0 =
+     ^
+IndentationError: expected an indented block
+[2022-07-02 01:10:52,482] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:10:52,504] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.029 seconds
+[2022-07-02 01:11:22,556] {processor.py:153} INFO - Started process (PID=600) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:22,556] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:11:22,557] {logging_mixin.py:115} INFO - [2022-07-02 01:11:22,556] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:22,558] {logging_mixin.py:115} INFO - [2022-07-02 01:11:22,557] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 12
+    t0 =
+     ^
+IndentationError: expected an indented block
+[2022-07-02 01:11:22,558] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:22,570] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.016 seconds
+[2022-07-02 01:11:24,571] {processor.py:153} INFO - Started process (PID=601) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:24,571] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:11:24,572] {logging_mixin.py:115} INFO - [2022-07-02 01:11:24,572] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:24,575] {logging_mixin.py:115} INFO - [2022-07-02 01:11:24,574] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 12
+    t0 = DummyOperator
+     ^
+IndentationError: expected an indented block
+[2022-07-02 01:11:24,575] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:24,617] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.050 seconds
+[2022-07-02 01:11:26,596] {processor.py:153} INFO - Started process (PID=602) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:26,596] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:11:26,597] {logging_mixin.py:115} INFO - [2022-07-02 01:11:26,597] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:26,598] {logging_mixin.py:115} INFO - [2022-07-02 01:11:26,598] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 12
+    t0 = DummyOperator()
+     ^
+IndentationError: expected an indented block
+[2022-07-02 01:11:26,598] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:26,613] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.019 seconds
+[2022-07-02 01:11:29,611] {processor.py:153} INFO - Started process (PID=612) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:29,612] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:11:29,612] {logging_mixin.py:115} INFO - [2022-07-02 01:11:29,612] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:29,615] {logging_mixin.py:115} INFO - [2022-07-02 01:11:29,614] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 12
+    t0 = DummyOperator(
+     ^
+IndentationError: expected an indented block
+[2022-07-02 01:11:29,615] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:29,649] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.041 seconds
+[2022-07-02 01:11:31,636] {processor.py:153} INFO - Started process (PID=613) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:31,636] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:11:31,637] {logging_mixin.py:115} INFO - [2022-07-02 01:11:31,636] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:31,638] {logging_mixin.py:115} INFO - [2022-07-02 01:11:31,637] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 12
+    t0 = DummyOperator(
+     ^
+IndentationError: expected an indented block
+[2022-07-02 01:11:31,638] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:31,651] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.017 seconds
+[2022-07-02 01:11:34,647] {processor.py:153} INFO - Started process (PID=614) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:34,648] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:11:34,648] {logging_mixin.py:115} INFO - [2022-07-02 01:11:34,648] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:34,650] {logging_mixin.py:115} INFO - [2022-07-02 01:11:34,649] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 12
+    t0 = DummyOperator(
+     ^
+IndentationError: expected an indented block
+[2022-07-02 01:11:34,651] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:34,667] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.022 seconds
+[2022-07-02 01:11:42,684] {processor.py:153} INFO - Started process (PID=624) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:42,689] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:11:42,689] {logging_mixin.py:115} INFO - [2022-07-02 01:11:42,689] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:42,691] {logging_mixin.py:115} INFO - [2022-07-02 01:11:42,690] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 12
+    t0 = DummyOperator(
+     ^
+IndentationError: expected an indented block
+[2022-07-02 01:11:42,692] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:42,706] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.023 seconds
+[2022-07-02 01:11:47,702] {processor.py:153} INFO - Started process (PID=625) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:47,703] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:11:47,703] {logging_mixin.py:115} INFO - [2022-07-02 01:11:47,703] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:47,704] {logging_mixin.py:115} INFO - [2022-07-02 01:11:47,704] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 12
+    t0 = DummyOperator(
+     ^
+IndentationError: expected an indented block
+[2022-07-02 01:11:47,705] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:47,717] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.017 seconds
+[2022-07-02 01:11:55,746] {processor.py:153} INFO - Started process (PID=636) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:55,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:11:55,747] {logging_mixin.py:115} INFO - [2022-07-02 01:11:55,747] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:55,777] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:56,593] {logging_mixin.py:115} INFO - [2022-07-02 01:11:56,593] {manager.py:508} INFO - Created Permission View: can read on DAG:Raize_ingestion
+[2022-07-02 01:11:56,600] {logging_mixin.py:115} INFO - [2022-07-02 01:11:56,600] {manager.py:508} INFO - Created Permission View: can edit on DAG:Raize_ingestion
+[2022-07-02 01:11:56,604] {logging_mixin.py:115} INFO - [2022-07-02 01:11:56,604] {manager.py:508} INFO - Created Permission View: can delete on DAG:Raize_ingestion
+[2022-07-02 01:11:56,604] {logging_mixin.py:115} INFO - [2022-07-02 01:11:56,604] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:11:56,610] {logging_mixin.py:115} INFO - [2022-07-02 01:11:56,610] {dag.py:2398} INFO - Creating ORM DAG for Raize_ingestion
+[2022-07-02 01:11:56,620] {logging_mixin.py:115} INFO - [2022-07-02 01:11:56,619] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-01T00:00:00+00:00, run_after=2022-07-02T00:00:00+00:00
+[2022-07-02 01:11:56,628] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.884 seconds
+[2022-07-02 01:11:58,650] {processor.py:153} INFO - Started process (PID=637) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:58,650] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:11:58,650] {logging_mixin.py:115} INFO - [2022-07-02 01:11:58,650] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:58,654] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:11:58,663] {logging_mixin.py:115} INFO - [2022-07-02 01:11:58,663] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:11:58,775] {logging_mixin.py:115} INFO - [2022-07-02 01:11:58,775] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-01T00:00:00+00:00, run_after=2022-07-02T00:00:00+00:00
+[2022-07-02 01:11:58,788] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.140 seconds
+[2022-07-02 01:12:28,810] {processor.py:153} INFO - Started process (PID=665) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:12:28,810] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:12:28,811] {logging_mixin.py:115} INFO - [2022-07-02 01:12:28,811] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:12:28,815] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:12:28,840] {logging_mixin.py:115} INFO - [2022-07-02 01:12:28,840] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:12:29,052] {logging_mixin.py:115} INFO - [2022-07-02 01:12:29,052] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-01T00:00:00+00:00, run_after=2022-07-02T00:00:00+00:00
+[2022-07-02 01:12:29,059] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.251 seconds
+[2022-07-02 01:12:59,106] {processor.py:153} INFO - Started process (PID=684) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:12:59,106] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:12:59,106] {logging_mixin.py:115} INFO - [2022-07-02 01:12:59,106] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:12:59,111] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:12:59,128] {logging_mixin.py:115} INFO - [2022-07-02 01:12:59,128] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:12:59,254] {logging_mixin.py:115} INFO - [2022-07-02 01:12:59,254] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-01T00:00:00+00:00, run_after=2022-07-02T00:00:00+00:00
+[2022-07-02 01:12:59,261] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.157 seconds
+[2022-07-02 01:22:04,878] {processor.py:153} INFO - Started process (PID=51) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:22:04,879] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:22:04,880] {logging_mixin.py:115} INFO - [2022-07-02 01:22:04,880] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:22:04,886] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:22:04,922] {logging_mixin.py:115} INFO - [2022-07-02 01:22:04,922] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:22:05,082] {logging_mixin.py:115} INFO - [2022-07-02 01:22:05,082] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-01T00:00:00+00:00, run_after=2022-07-02T00:00:00+00:00
+[2022-07-02 01:22:05,093] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.218 seconds
+[2022-07-02 01:22:35,150] {processor.py:153} INFO - Started process (PID=71) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:22:35,151] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:22:35,152] {logging_mixin.py:115} INFO - [2022-07-02 01:22:35,152] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:22:35,183] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:22:35,237] {logging_mixin.py:115} INFO - [2022-07-02 01:22:35,237] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:22:36,122] {logging_mixin.py:115} INFO - [2022-07-02 01:22:36,122] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-01T00:00:00+00:00, run_after=2022-07-02T00:00:00+00:00
+[2022-07-02 01:22:36,132] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.984 seconds
+[2022-07-02 01:23:06,193] {processor.py:153} INFO - Started process (PID=99) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:23:06,195] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:23:06,195] {logging_mixin.py:115} INFO - [2022-07-02 01:23:06,195] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:23:06,199] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:23:06,225] {logging_mixin.py:115} INFO - [2022-07-02 01:23:06,225] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:23:06,547] {logging_mixin.py:115} INFO - [2022-07-02 01:23:06,547] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:23:06,555] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.363 seconds
+[2022-07-02 01:23:36,609] {processor.py:153} INFO - Started process (PID=128) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:23:36,609] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:23:36,610] {logging_mixin.py:115} INFO - [2022-07-02 01:23:36,610] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:23:36,613] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:23:36,629] {logging_mixin.py:115} INFO - [2022-07-02 01:23:36,629] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:23:36,808] {logging_mixin.py:115} INFO - [2022-07-02 01:23:36,808] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:23:36,815] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.207 seconds
+[2022-07-02 01:24:06,868] {processor.py:153} INFO - Started process (PID=148) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:06,868] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:24:06,869] {logging_mixin.py:115} INFO - [2022-07-02 01:24:06,869] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:06,874] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:06,905] {logging_mixin.py:115} INFO - [2022-07-02 01:24:06,905] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:24:07,124] {logging_mixin.py:115} INFO - [2022-07-02 01:24:07,124] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:24:07,133] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.269 seconds
+[2022-07-02 01:24:33,948] {processor.py:153} INFO - Started process (PID=176) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:33,950] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:24:33,951] {logging_mixin.py:115} INFO - [2022-07-02 01:24:33,951] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:33,953] {logging_mixin.py:115} INFO - [2022-07-02 01:24:33,952] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 16
+    sensor_task = FileSensor( task_id= "my_file_sensor_task", poke_interval= 30, fs_conn_id= <path>, filepath= <file or directory name> )
+    ^
+IndentationError: unexpected indent
+[2022-07-02 01:24:33,953] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:33,984] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.041 seconds
+[2022-07-02 01:24:35,952] {processor.py:153} INFO - Started process (PID=177) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:35,953] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:24:35,953] {logging_mixin.py:115} INFO - [2022-07-02 01:24:35,953] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:35,955] {logging_mixin.py:115} INFO - [2022-07-02 01:24:35,954] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 16
+    sensor_task = FileSensor( task_id= "my_file_sensor_task", poke_interval= 30, fs_conn_id= <path>, filepath= <file or directory name> )
+                                                                                             ^
+SyntaxError: invalid syntax
+[2022-07-02 01:24:35,955] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:35,972] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.023 seconds
+[2022-07-02 01:24:40,974] {processor.py:153} INFO - Started process (PID=178) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:40,974] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:24:40,974] {logging_mixin.py:115} INFO - [2022-07-02 01:24:40,974] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:40,976] {logging_mixin.py:115} INFO - [2022-07-02 01:24:40,975] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 16
+    sensor_task = FileSensor( task_id= "my_file_sensor_task", poke_interval= 30, fs_conn_id= <path>, filepath= <file or directory name> )
+                                                                                             ^
+SyntaxError: invalid syntax
+[2022-07-02 01:24:40,976] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:40,995] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.023 seconds
+[2022-07-02 01:24:44,006] {processor.py:153} INFO - Started process (PID=188) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:44,006] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:24:44,007] {logging_mixin.py:115} INFO - [2022-07-02 01:24:44,007] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:44,009] {logging_mixin.py:115} INFO - [2022-07-02 01:24:44,008] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 16
+    sensor_task = FileSensor( task_id= "my_file_sensor_task", poke_interval= 30, fs_conn_id= <path>, filepath= <file or directory name> )
+                                                                                             ^
+SyntaxError: invalid syntax
+[2022-07-02 01:24:44,009] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:44,027] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.024 seconds
+[2022-07-02 01:24:46,023] {processor.py:153} INFO - Started process (PID=189) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:46,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:24:46,024] {logging_mixin.py:115} INFO - [2022-07-02 01:24:46,024] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:46,026] {logging_mixin.py:115} INFO - [2022-07-02 01:24:46,025] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 16
+    sensor_task = FileSensor( task_id= "my_file_sensor_task", poke_interval= 30, fs_conn_id= <path>, filepath= <file or directory name> )
+                                                                                             ^
+SyntaxError: invalid syntax
+[2022-07-02 01:24:46,027] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:46,049] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.030 seconds
+[2022-07-02 01:24:49,061] {processor.py:153} INFO - Started process (PID=190) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:49,061] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:24:49,062] {logging_mixin.py:115} INFO - [2022-07-02 01:24:49,061] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:49,063] {logging_mixin.py:115} INFO - [2022-07-02 01:24:49,062] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 16
+    sensor_task = FileSensor( task_id= "my_file_sensor_task", poke_interval= 30, fs_conn_id= <path>, filepath= <file or directory name> )
+                                                                                             ^
+SyntaxError: invalid syntax
+[2022-07-02 01:24:49,063] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:49,083] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.024 seconds
+[2022-07-02 01:24:53,079] {processor.py:153} INFO - Started process (PID=191) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:53,080] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:24:53,080] {logging_mixin.py:115} INFO - [2022-07-02 01:24:53,080] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:53,082] {logging_mixin.py:115} INFO - [2022-07-02 01:24:53,081] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 4
+    from
+        ^
+SyntaxError: invalid syntax
+[2022-07-02 01:24:53,082] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:53,101] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.024 seconds
+[2022-07-02 01:24:59,113] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:59,114] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:24:59,114] {logging_mixin.py:115} INFO - [2022-07-02 01:24:59,114] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:59,115] {logging_mixin.py:115} INFO - [2022-07-02 01:24:59,115] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 4
+    from airflow.operators.fi
+                            ^
+SyntaxError: invalid syntax
+[2022-07-02 01:24:59,115] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:24:59,132] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.021 seconds
+[2022-07-02 01:25:00,151] {processor.py:153} INFO - Started process (PID=202) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:00,151] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:00,151] {logging_mixin.py:115} INFO - [2022-07-02 01:25:00,151] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:00,153] {logging_mixin.py:115} INFO - [2022-07-02 01:25:00,153] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 4
+    from airflow.operators.file
+                              ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:00,154] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:00,171] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.024 seconds
+[2022-07-02 01:25:05,161] {processor.py:153} INFO - Started process (PID=203) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:05,161] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:05,161] {logging_mixin.py:115} INFO - [2022-07-02 01:25:05,161] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:05,163] {logging_mixin.py:115} INFO - [2022-07-02 01:25:05,162] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 4
+    from airflow.operators
+                         ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:05,163] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:05,175] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.016 seconds
+[2022-07-02 01:25:07,183] {processor.py:153} INFO - Started process (PID=213) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:07,184] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:07,184] {logging_mixin.py:115} INFO - [2022-07-02 01:25:07,184] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:07,186] {logging_mixin.py:115} INFO - [2022-07-02 01:25:07,185] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 4
+    from airflow.operators.se
+                            ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:07,186] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:07,208] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.027 seconds
+[2022-07-02 01:25:16,207] {processor.py:153} INFO - Started process (PID=214) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:16,207] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:16,207] {logging_mixin.py:115} INFO - [2022-07-02 01:25:16,207] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:16,209] {logging_mixin.py:115} INFO - [2022-07-02 01:25:16,209] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 4
+    from airflow.se
+                  ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:16,209] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:16,224] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.019 seconds
+[2022-07-02 01:25:19,238] {processor.py:153} INFO - Started process (PID=224) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:19,238] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:19,239] {logging_mixin.py:115} INFO - [2022-07-02 01:25:19,239] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:19,240] {logging_mixin.py:115} INFO - [2022-07-02 01:25:19,240] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 4
+    from airflow.sensors.fi
+                          ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:19,240] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:19,254] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.018 seconds
+[2022-07-02 01:25:28,265] {processor.py:153} INFO - Started process (PID=225) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:28,265] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:28,266] {logging_mixin.py:115} INFO - [2022-07-02 01:25:28,266] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:28,267] {logging_mixin.py:115} INFO - [2022-07-02 01:25:28,267] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 4
+    from airflow.sensors.fil
+                           ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:28,267] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:28,293] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.031 seconds
+[2022-07-02 01:25:40,301] {processor.py:153} INFO - Started process (PID=235) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:40,301] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:40,302] {logging_mixin.py:115} INFO - [2022-07-02 01:25:40,301] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:40,303] {logging_mixin.py:115} INFO - [2022-07-02 01:25:40,302] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 4
+    from airflow.sensors.filesystem
+                                  ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:40,303] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:40,317] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.019 seconds
+[2022-07-02 01:25:42,328] {processor.py:153} INFO - Started process (PID=245) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:42,328] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:42,329] {logging_mixin.py:115} INFO - [2022-07-02 01:25:42,329] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:42,331] {logging_mixin.py:115} INFO - [2022-07-02 01:25:42,330] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 4
+    from airflow.sensors.filesystem.
+                                   ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:42,331] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:42,348] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.024 seconds
+[2022-07-02 01:25:49,345] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:49,345] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:49,345] {logging_mixin.py:115} INFO - [2022-07-02 01:25:49,345] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:49,347] {logging_mixin.py:115} INFO - [2022-07-02 01:25:49,346] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 17
+    sensor_task = FileSensor( task_id= "my_file_sensor_task", poke_interval= 30, fs_conn_id= <path>, filepath= <file or directory name> )
+                                                                                             ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:49,347] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:49,358] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.016 seconds
+[2022-07-02 01:25:53,360] {processor.py:153} INFO - Started process (PID=257) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:53,361] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:53,362] {logging_mixin.py:115} INFO - [2022-07-02 01:25:53,361] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:53,364] {logging_mixin.py:115} INFO - [2022-07-02 01:25:53,363] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 18
+    task_id= "my_file_sensor_task", poke_interval= 30, fs_conn_id= <path>, filepath= <file or directory name> )
+                                                                   ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:53,364] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:53,386] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.029 seconds
+[2022-07-02 01:25:54,379] {processor.py:153} INFO - Started process (PID=258) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:54,379] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:54,380] {logging_mixin.py:115} INFO - [2022-07-02 01:25:54,380] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:54,382] {logging_mixin.py:115} INFO - [2022-07-02 01:25:54,381] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 19
+    poke_interval= 30, fs_conn_id= <path>, filepath= <file or directory name> )
+                                   ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:54,382] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:54,401] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.026 seconds
+[2022-07-02 01:25:56,404] {processor.py:153} INFO - Started process (PID=259) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:56,404] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:56,405] {logging_mixin.py:115} INFO - [2022-07-02 01:25:56,405] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:56,407] {logging_mixin.py:115} INFO - [2022-07-02 01:25:56,406] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 20
+    fs_conn_id= <path>, filepath= <file or directory name> )
+                ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:56,407] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:56,423] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.021 seconds
+[2022-07-02 01:25:57,422] {processor.py:153} INFO - Started process (PID=260) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:57,422] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:57,423] {logging_mixin.py:115} INFO - [2022-07-02 01:25:57,423] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:57,424] {logging_mixin.py:115} INFO - [2022-07-02 01:25:57,423] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 20
+    fs_conn_id= <path>,
+                ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:57,424] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:57,437] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.017 seconds
+[2022-07-02 01:25:59,442] {processor.py:153} INFO - Started process (PID=261) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:59,443] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:25:59,443] {logging_mixin.py:115} INFO - [2022-07-02 01:25:59,443] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:59,445] {logging_mixin.py:115} INFO - [2022-07-02 01:25:59,444] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 20
+    fs_conn_id= <path>,
+                ^
+SyntaxError: invalid syntax
+[2022-07-02 01:25:59,445] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:25:59,460] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.020 seconds
+[2022-07-02 01:26:03,471] {processor.py:153} INFO - Started process (PID=262) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:03,471] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:26:03,472] {logging_mixin.py:115} INFO - [2022-07-02 01:26:03,472] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:03,473] {logging_mixin.py:115} INFO - [2022-07-02 01:26:03,473] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 20
+    fs_conn_id= <path>,
+                ^
+SyntaxError: invalid syntax
+[2022-07-02 01:26:03,473] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:03,489] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.021 seconds
+[2022-07-02 01:26:25,520] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:25,520] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:26:25,520] {logging_mixin.py:115} INFO - [2022-07-02 01:26:25,520] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:25,522] {logging_mixin.py:115} INFO - [2022-07-02 01:26:25,521] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 20
+    filepath= <file or directory name>
+              ^
+SyntaxError: invalid syntax
+[2022-07-02 01:26:25,522] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:25,534] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.016 seconds
+[2022-07-02 01:26:28,531] {processor.py:153} INFO - Started process (PID=292) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:28,532] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:26:28,532] {logging_mixin.py:115} INFO - [2022-07-02 01:26:28,532] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:28,541] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:28,830] {logging_mixin.py:115} INFO - [2022-07-02 01:26:28,829] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:26:28,845] {logging_mixin.py:115} INFO - [2022-07-02 01:26:28,845] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:26:28,855] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.326 seconds
+[2022-07-02 01:26:38,571] {processor.py:153} INFO - Started process (PID=293) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:38,571] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:26:38,572] {logging_mixin.py:115} INFO - [2022-07-02 01:26:38,572] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:38,580] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:38,607] {logging_mixin.py:115} INFO - [2022-07-02 01:26:38,607] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:26:38,754] {logging_mixin.py:115} INFO - [2022-07-02 01:26:38,754] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:26:38,772] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.204 seconds
+[2022-07-02 01:26:47,588] {processor.py:153} INFO - Started process (PID=303) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:47,594] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:26:47,594] {logging_mixin.py:115} INFO - [2022-07-02 01:26:47,594] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:47,600] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:26:47,609] {logging_mixin.py:115} INFO - [2022-07-02 01:26:47,609] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:26:47,732] {logging_mixin.py:115} INFO - [2022-07-02 01:26:47,732] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:26:47,743] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.157 seconds
+[2022-07-02 01:27:02,623] {processor.py:153} INFO - Started process (PID=323) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:02,623] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:27:02,623] {logging_mixin.py:115} INFO - [2022-07-02 01:27:02,623] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:02,630] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:02,873] {logging_mixin.py:115} INFO - [2022-07-02 01:27:02,873] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:27:02,894] {logging_mixin.py:115} INFO - [2022-07-02 01:27:02,894] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:27:02,910] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.290 seconds
+[2022-07-02 01:27:04,804] {processor.py:153} INFO - Started process (PID=324) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:04,804] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:27:04,805] {logging_mixin.py:115} INFO - [2022-07-02 01:27:04,805] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:04,812] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:04,824] {logging_mixin.py:115} INFO - [2022-07-02 01:27:04,824] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:27:04,953] {logging_mixin.py:115} INFO - [2022-07-02 01:27:04,953] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:27:04,961] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.160 seconds
+[2022-07-02 01:27:08,957] {processor.py:153} INFO - Started process (PID=325) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:08,957] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:27:08,958] {logging_mixin.py:115} INFO - [2022-07-02 01:27:08,958] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:08,966] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:08,979] {logging_mixin.py:115} INFO - [2022-07-02 01:27:08,979] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:27:09,138] {logging_mixin.py:115} INFO - [2022-07-02 01:27:09,138] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:27:09,147] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.193 seconds
+[2022-07-02 01:27:12,169] {processor.py:153} INFO - Started process (PID=326) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:12,169] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:27:12,169] {logging_mixin.py:115} INFO - [2022-07-02 01:27:12,169] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:12,176] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:12,187] {logging_mixin.py:115} INFO - [2022-07-02 01:27:12,187] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:27:12,321] {logging_mixin.py:115} INFO - [2022-07-02 01:27:12,321] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:27:12,330] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.164 seconds
+[2022-07-02 01:27:42,382] {processor.py:153} INFO - Started process (PID=354) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:42,389] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:27:42,389] {logging_mixin.py:115} INFO - [2022-07-02 01:27:42,389] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:42,396] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:27:42,607] {logging_mixin.py:115} INFO - [2022-07-02 01:27:42,606] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:27:42,629] {logging_mixin.py:115} INFO - [2022-07-02 01:27:42,629] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:27:42,638] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.258 seconds
+[2022-07-02 01:28:12,690] {processor.py:153} INFO - Started process (PID=382) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:28:12,692] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:28:12,692] {logging_mixin.py:115} INFO - [2022-07-02 01:28:12,692] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:28:12,698] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:28:12,743] {logging_mixin.py:115} INFO - [2022-07-02 01:28:12,743] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:28:12,866] {logging_mixin.py:115} INFO - [2022-07-02 01:28:12,866] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:28:12,873] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.186 seconds
+[2022-07-02 01:28:42,923] {processor.py:153} INFO - Started process (PID=402) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:28:42,924] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:28:42,924] {logging_mixin.py:115} INFO - [2022-07-02 01:28:42,924] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:28:42,932] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:28:42,966] {logging_mixin.py:115} INFO - [2022-07-02 01:28:42,966] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:28:43,088] {logging_mixin.py:115} INFO - [2022-07-02 01:28:43,088] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:28:43,102] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.181 seconds
+[2022-07-02 01:29:13,151] {processor.py:153} INFO - Started process (PID=431) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:29:13,152] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:29:13,152] {logging_mixin.py:115} INFO - [2022-07-02 01:29:13,152] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:29:13,156] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:29:13,187] {logging_mixin.py:115} INFO - [2022-07-02 01:29:13,187] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:29:13,296] {logging_mixin.py:115} INFO - [2022-07-02 01:29:13,296] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:29:13,303] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.154 seconds
+[2022-07-02 01:29:43,354] {processor.py:153} INFO - Started process (PID=459) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:29:43,355] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:29:43,355] {logging_mixin.py:115} INFO - [2022-07-02 01:29:43,355] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:29:43,359] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:29:43,394] {logging_mixin.py:115} INFO - [2022-07-02 01:29:43,394] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:29:43,522] {logging_mixin.py:115} INFO - [2022-07-02 01:29:43,522] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:29:43,531] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.179 seconds
+[2022-07-02 01:30:13,582] {processor.py:153} INFO - Started process (PID=478) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:30:13,588] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:30:13,589] {logging_mixin.py:115} INFO - [2022-07-02 01:30:13,589] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:30:13,593] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:30:13,622] {logging_mixin.py:115} INFO - [2022-07-02 01:30:13,622] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:30:13,746] {logging_mixin.py:115} INFO - [2022-07-02 01:30:13,746] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:30:13,753] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.173 seconds
+[2022-07-02 01:30:43,800] {processor.py:153} INFO - Started process (PID=508) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:30:43,800] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:30:43,801] {logging_mixin.py:115} INFO - [2022-07-02 01:30:43,800] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:30:43,805] {processor.py:651} INFO - DAG(s) dict_keys(['Raize_ingestion']) retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:30:43,833] {logging_mixin.py:115} INFO - [2022-07-02 01:30:43,832] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-02 01:30:43,962] {logging_mixin.py:115} INFO - [2022-07-02 01:30:43,962] {dag.py:2931} INFO - Setting next_dagrun for Raize_ingestion to 2022-07-02T00:00:00+00:00, run_after=2022-07-03T00:00:00+00:00
+[2022-07-02 01:30:43,975] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.177 seconds
+[2022-07-02 01:31:08,859] {processor.py:153} INFO - Started process (PID=528) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:31:08,860] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:31:08,860] {logging_mixin.py:115} INFO - [2022-07-02 01:31:08,860] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:31:08,872] {logging_mixin.py:115} INFO - [2022-07-02 01:31:08,871] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:31:08,872] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:31:08,901] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.046 seconds
+[2022-07-02 01:31:38,922] {processor.py:153} INFO - Started process (PID=557) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:31:38,929] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:31:38,929] {logging_mixin.py:115} INFO - [2022-07-02 01:31:38,929] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:31:38,935] {logging_mixin.py:115} INFO - [2022-07-02 01:31:38,934] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:31:38,935] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:31:38,952] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.033 seconds
+[2022-07-02 01:32:09,025] {processor.py:153} INFO - Started process (PID=576) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:32:09,025] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:32:09,025] {logging_mixin.py:115} INFO - [2022-07-02 01:32:09,025] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:32:09,029] {logging_mixin.py:115} INFO - [2022-07-02 01:32:09,029] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:32:09,029] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:32:09,042] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.019 seconds
+[2022-07-02 01:32:39,084] {processor.py:153} INFO - Started process (PID=604) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:32:39,090] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:32:39,090] {logging_mixin.py:115} INFO - [2022-07-02 01:32:39,090] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:32:39,094] {logging_mixin.py:115} INFO - [2022-07-02 01:32:39,094] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:32:39,094] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:32:39,106] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.024 seconds
+[2022-07-02 01:33:09,147] {processor.py:153} INFO - Started process (PID=624) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:33:09,153] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:33:09,154] {logging_mixin.py:115} INFO - [2022-07-02 01:33:09,153] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:33:09,158] {logging_mixin.py:115} INFO - [2022-07-02 01:33:09,157] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:33:09,158] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:33:09,169] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.024 seconds
+[2022-07-02 01:33:39,204] {processor.py:153} INFO - Started process (PID=652) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:33:39,211] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:33:39,211] {logging_mixin.py:115} INFO - [2022-07-02 01:33:39,211] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:33:39,215] {logging_mixin.py:115} INFO - [2022-07-02 01:33:39,215] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:33:39,215] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:33:39,228] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.025 seconds
+[2022-07-02 01:34:09,286] {processor.py:153} INFO - Started process (PID=682) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:34:09,293] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:34:09,295] {logging_mixin.py:115} INFO - [2022-07-02 01:34:09,294] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:34:09,302] {logging_mixin.py:115} INFO - [2022-07-02 01:34:09,302] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:34:09,303] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:34:09,328] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.044 seconds
+[2022-07-02 01:34:39,379] {processor.py:153} INFO - Started process (PID=702) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:34:39,380] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:34:39,381] {logging_mixin.py:115} INFO - [2022-07-02 01:34:39,381] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:34:39,387] {logging_mixin.py:115} INFO - [2022-07-02 01:34:39,387] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:34:39,388] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:34:39,408] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.032 seconds
+[2022-07-02 01:35:09,440] {processor.py:153} INFO - Started process (PID=732) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:35:09,440] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:35:09,441] {logging_mixin.py:115} INFO - [2022-07-02 01:35:09,440] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:35:09,444] {logging_mixin.py:115} INFO - [2022-07-02 01:35:09,444] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:35:09,445] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:35:09,456] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.018 seconds
+[2022-07-02 01:35:39,520] {processor.py:153} INFO - Started process (PID=751) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:35:39,520] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:35:39,521] {logging_mixin.py:115} INFO - [2022-07-02 01:35:39,520] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:35:39,531] {logging_mixin.py:115} INFO - [2022-07-02 01:35:39,530] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:35:39,532] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:35:39,554] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.036 seconds
+[2022-07-02 01:36:09,586] {processor.py:153} INFO - Started process (PID=779) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:36:09,592] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:36:09,593] {logging_mixin.py:115} INFO - [2022-07-02 01:36:09,593] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:36:09,598] {logging_mixin.py:115} INFO - [2022-07-02 01:36:09,597] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:36:09,598] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:36:09,612] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.027 seconds
+[2022-07-02 01:36:39,659] {processor.py:153} INFO - Started process (PID=807) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:36:39,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:36:39,659] {logging_mixin.py:115} INFO - [2022-07-02 01:36:39,659] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:36:39,663] {logging_mixin.py:115} INFO - [2022-07-02 01:36:39,663] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:36:39,663] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:36:39,675] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.018 seconds
+[2022-07-02 01:37:09,739] {processor.py:153} INFO - Started process (PID=828) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:37:09,746] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:37:09,746] {logging_mixin.py:115} INFO - [2022-07-02 01:37:09,746] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:37:09,752] {logging_mixin.py:115} INFO - [2022-07-02 01:37:09,751] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:37:09,752] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:37:09,766] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.028 seconds
+[2022-07-02 01:37:39,802] {processor.py:153} INFO - Started process (PID=856) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:37:39,802] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:37:39,803] {logging_mixin.py:115} INFO - [2022-07-02 01:37:39,802] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:37:39,807] {logging_mixin.py:115} INFO - [2022-07-02 01:37:39,806] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:37:39,807] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:37:39,819] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.019 seconds
+[2022-07-02 01:38:09,872] {processor.py:153} INFO - Started process (PID=882) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:38:09,872] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:38:09,873] {logging_mixin.py:115} INFO - [2022-07-02 01:38:09,873] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:38:09,882] {logging_mixin.py:115} INFO - [2022-07-02 01:38:09,881] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:38:09,882] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:38:09,902] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.032 seconds
+[2022-07-02 01:38:39,938] {processor.py:153} INFO - Started process (PID=903) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:38:39,938] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:38:39,938] {logging_mixin.py:115} INFO - [2022-07-02 01:38:39,938] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:38:39,945] {logging_mixin.py:115} INFO - [2022-07-02 01:38:39,944] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:38:39,946] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:38:39,963] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.027 seconds
+[2022-07-02 01:39:10,016] {processor.py:153} INFO - Started process (PID=932) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:39:10,022] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:39:10,022] {logging_mixin.py:115} INFO - [2022-07-02 01:39:10,022] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:39:10,029] {logging_mixin.py:115} INFO - [2022-07-02 01:39:10,028] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:39:10,030] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:39:10,043] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.031 seconds
+[2022-07-02 01:39:40,085] {processor.py:153} INFO - Started process (PID=951) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:39:40,092] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:39:40,092] {logging_mixin.py:115} INFO - [2022-07-02 01:39:40,092] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:39:40,099] {logging_mixin.py:115} INFO - [2022-07-02 01:39:40,098] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:39:40,100] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:39:40,129] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.047 seconds
+[2022-07-02 01:40:10,154] {processor.py:153} INFO - Started process (PID=979) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:40:10,155] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:40:10,156] {logging_mixin.py:115} INFO - [2022-07-02 01:40:10,156] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:40:10,161] {logging_mixin.py:115} INFO - [2022-07-02 01:40:10,160] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:40:10,161] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:40:10,175] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.025 seconds
+[2022-07-02 01:40:40,231] {processor.py:153} INFO - Started process (PID=1007) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:40:40,237] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:40:40,238] {logging_mixin.py:115} INFO - [2022-07-02 01:40:40,238] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:40:40,244] {logging_mixin.py:115} INFO - [2022-07-02 01:40:40,243] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:40:40,244] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:40:40,260] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.032 seconds
+[2022-07-02 01:41:10,290] {processor.py:153} INFO - Started process (PID=1026) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:41:10,296] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:41:10,296] {logging_mixin.py:115} INFO - [2022-07-02 01:41:10,296] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:41:10,301] {logging_mixin.py:115} INFO - [2022-07-02 01:41:10,301] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:41:10,301] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:41:10,312] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.024 seconds
+[2022-07-02 01:41:40,361] {processor.py:153} INFO - Started process (PID=1054) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:41:40,361] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:41:40,361] {logging_mixin.py:115} INFO - [2022-07-02 01:41:40,361] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:41:40,366] {logging_mixin.py:115} INFO - [2022-07-02 01:41:40,365] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:41:40,366] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:41:40,377] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.018 seconds
+[2022-07-02 01:42:10,438] {processor.py:153} INFO - Started process (PID=1074) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:42:10,439] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:42:10,439] {logging_mixin.py:115} INFO - [2022-07-02 01:42:10,439] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:42:10,444] {logging_mixin.py:115} INFO - [2022-07-02 01:42:10,444] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:42:10,444] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:42:10,462] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.026 seconds
+[2022-07-02 01:42:40,496] {processor.py:153} INFO - Started process (PID=1102) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:42:40,496] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:42:40,496] {logging_mixin.py:115} INFO - [2022-07-02 01:42:40,496] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:42:40,500] {logging_mixin.py:115} INFO - [2022-07-02 01:42:40,500] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:42:40,501] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:42:40,514] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.020 seconds
+[2022-07-02 01:43:10,565] {processor.py:153} INFO - Started process (PID=1131) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:43:10,565] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:43:10,566] {logging_mixin.py:115} INFO - [2022-07-02 01:43:10,566] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:43:10,572] {logging_mixin.py:115} INFO - [2022-07-02 01:43:10,572] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:43:10,572] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:43:10,592] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.031 seconds
+[2022-07-02 01:43:40,620] {processor.py:153} INFO - Started process (PID=1150) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:43:40,626] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:43:40,627] {logging_mixin.py:115} INFO - [2022-07-02 01:43:40,627] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:43:40,631] {logging_mixin.py:115} INFO - [2022-07-02 01:43:40,631] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:43:40,632] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:43:40,648] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.030 seconds
+[2022-07-02 01:44:10,691] {processor.py:153} INFO - Started process (PID=1178) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:44:10,697] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:44:10,697] {logging_mixin.py:115} INFO - [2022-07-02 01:44:10,697] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:44:10,702] {logging_mixin.py:115} INFO - [2022-07-02 01:44:10,701] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:44:10,702] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:44:10,716] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.026 seconds
+[2022-07-02 01:44:40,752] {processor.py:153} INFO - Started process (PID=1206) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:44:40,752] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:44:40,752] {logging_mixin.py:115} INFO - [2022-07-02 01:44:40,752] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:44:40,756] {logging_mixin.py:115} INFO - [2022-07-02 01:44:40,756] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:44:40,757] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:44:40,770] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.020 seconds
+[2022-07-02 01:45:10,813] {processor.py:153} INFO - Started process (PID=1226) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:45:10,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:45:10,820] {logging_mixin.py:115} INFO - [2022-07-02 01:45:10,820] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:45:10,824] {logging_mixin.py:115} INFO - [2022-07-02 01:45:10,823] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:45:10,824] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:45:10,839] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.028 seconds
+[2022-07-02 01:45:40,870] {processor.py:153} INFO - Started process (PID=1255) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:45:40,876] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:45:40,876] {logging_mixin.py:115} INFO - [2022-07-02 01:45:40,876] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:45:40,881] {logging_mixin.py:115} INFO - [2022-07-02 01:45:40,880] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:45:40,881] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:45:40,895] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.027 seconds
+[2022-07-02 01:46:10,934] {processor.py:153} INFO - Started process (PID=1284) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:46:10,934] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:46:10,934] {logging_mixin.py:115} INFO - [2022-07-02 01:46:10,934] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:46:10,940] {logging_mixin.py:115} INFO - [2022-07-02 01:46:10,939] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:46:10,940] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:46:10,963] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.031 seconds
+[2022-07-02 01:46:41,057] {processor.py:153} INFO - Started process (PID=1306) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:46:41,058] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:46:41,060] {logging_mixin.py:115} INFO - [2022-07-02 01:46:41,059] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:46:41,191] {logging_mixin.py:115} INFO - [2022-07-02 01:46:41,189] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:46:41,192] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:46:51,245] {processor.py:164} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3141, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 301, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 755, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 419, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 142, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 247, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 362, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 605, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 599, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 583, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 158, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 654, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 541, in update_import_errors
+    existing_import_error_files = [x.filename for x in session.query(errors.ImportError.filename).all()]
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2683, in all
+    return self._iter().all()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2821, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1669, in execute
+    conn = self._connection_for_bind(bind, close_with_result=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1520, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3095, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 91, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3174, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3145, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2004, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3141, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 301, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 755, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 419, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 142, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 247, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 362, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 605, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 599, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 583, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+[2022-07-02 01:47:21,468] {processor.py:153} INFO - Started process (PID=1307) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:47:21,469] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:47:21,469] {logging_mixin.py:115} INFO - [2022-07-02 01:47:21,469] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:47:21,519] {logging_mixin.py:115} INFO - [2022-07-02 01:47:21,518] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:47:21,520] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:47:22,156] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.691 seconds
+[2022-07-02 01:47:52,210] {processor.py:153} INFO - Started process (PID=1327) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:47:52,211] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:47:52,211] {logging_mixin.py:115} INFO - [2022-07-02 01:47:52,211] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:47:52,223] {logging_mixin.py:115} INFO - [2022-07-02 01:47:52,222] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:47:52,223] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:47:52,249] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.041 seconds
+[2022-07-02 01:48:22,287] {processor.py:153} INFO - Started process (PID=1328) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:48:22,288] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:48:22,289] {logging_mixin.py:115} INFO - [2022-07-02 01:48:22,289] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:48:22,329] {logging_mixin.py:115} INFO - [2022-07-02 01:48:22,326] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:48:22,329] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:48:32,361] {processor.py:164} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3141, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 301, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 755, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 419, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 142, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 247, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 362, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 605, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 599, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 583, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 158, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 654, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 541, in update_import_errors
+    existing_import_error_files = [x.filename for x in session.query(errors.ImportError.filename).all()]
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2683, in all
+    return self._iter().all()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2821, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1669, in execute
+    conn = self._connection_for_bind(bind, close_with_result=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1520, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3095, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 91, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3174, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3145, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2004, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3141, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 301, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 755, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 419, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 142, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 247, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 362, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 605, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 599, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 583, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+[2022-07-02 01:49:02,764] {processor.py:153} INFO - Started process (PID=1329) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:49:02,765] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:49:02,767] {logging_mixin.py:115} INFO - [2022-07-02 01:49:02,767] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:49:02,928] {logging_mixin.py:115} INFO - [2022-07-02 01:49:02,922] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:49:02,929] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:49:13,200] {processor.py:164} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3141, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 301, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 755, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 419, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 142, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 247, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 362, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 605, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 599, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 583, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 158, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 654, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 541, in update_import_errors
+    existing_import_error_files = [x.filename for x in session.query(errors.ImportError.filename).all()]
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2683, in all
+    return self._iter().all()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2821, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1669, in execute
+    conn = self._connection_for_bind(bind, close_with_result=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1520, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3095, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 91, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3174, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3145, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2004, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3141, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 301, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 755, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 419, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 142, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 247, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 362, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 605, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 599, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 583, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+[2022-07-02 01:49:43,671] {processor.py:153} INFO - Started process (PID=1330) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:49:43,672] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:49:43,674] {logging_mixin.py:115} INFO - [2022-07-02 01:49:43,674] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:49:44,789] {logging_mixin.py:115} INFO - [2022-07-02 01:49:44,732] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:49:44,806] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:49:56,001] {processor.py:164} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3141, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 301, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 755, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 419, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 142, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 247, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 362, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 605, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 599, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 583, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 158, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 654, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 541, in update_import_errors
+    existing_import_error_files = [x.filename for x in session.query(errors.ImportError.filename).all()]
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2683, in all
+    return self._iter().all()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2821, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1669, in execute
+    conn = self._connection_for_bind(bind, close_with_result=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1520, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3095, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 91, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3174, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3145, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2004, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3141, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 301, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 755, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 419, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 142, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 247, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 362, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 605, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 599, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 583, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+[2022-07-02 01:50:26,478] {processor.py:153} INFO - Started process (PID=1331) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:50:26,480] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:50:26,486] {logging_mixin.py:115} INFO - [2022-07-02 01:50:26,482] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:50:26,881] {logging_mixin.py:115} INFO - [2022-07-02 01:50:26,871] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:50:26,892] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:50:37,003] {processor.py:164} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3141, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 301, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 755, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 419, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 142, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 247, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 362, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 605, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 599, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 583, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 158, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 654, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 541, in update_import_errors
+    existing_import_error_files = [x.filename for x in session.query(errors.ImportError.filename).all()]
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2683, in all
+    return self._iter().all()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2821, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1669, in execute
+    conn = self._connection_for_bind(bind, close_with_result=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1520, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3095, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 91, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3174, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3145, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2004, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3141, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 301, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 755, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 419, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 142, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 247, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 362, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 605, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 599, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 583, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+[2022-07-02 01:51:07,330] {processor.py:153} INFO - Started process (PID=1332) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:51:07,330] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:51:07,331] {logging_mixin.py:115} INFO - [2022-07-02 01:51:07,331] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:51:07,352] {logging_mixin.py:115} INFO - [2022-07-02 01:51:07,351] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:51:07,352] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:51:07,386] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.060 seconds
+[2022-07-02 01:51:37,438] {processor.py:153} INFO - Started process (PID=1362) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:51:37,438] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:51:37,439] {logging_mixin.py:115} INFO - [2022-07-02 01:51:37,439] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:51:37,449] {logging_mixin.py:115} INFO - [2022-07-02 01:51:37,449] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:51:37,450] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:51:37,481] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.046 seconds
+[2022-07-02 01:52:15,023] {processor.py:153} INFO - Started process (PID=1363) to work on /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:52:15,024] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_raizen_ingestion.py for tasks to queue
+[2022-07-02 01:52:15,024] {logging_mixin.py:115} INFO - [2022-07-02 01:52:15,024] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:52:15,132] {logging_mixin.py:115} INFO - [2022-07-02 01:52:15,131] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/dag_raizen_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 24, in <module>
+    start >> sensor_task
+NameError: name 'sensor_task' is not defined
+[2022-07-02 01:52:15,132] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_raizen_ingestion.py
+[2022-07-02 01:52:15,503] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_raizen_ingestion.py took 0.484 seconds
