@@ -1,0 +1,34 @@
+[2022-07-03 18:18:35,107] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Raize_ingestion.insert_data_on_pg scheduled__2022-07-02T00:00:00+00:00 [queued]>
+[2022-07-03 18:18:35,139] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Raize_ingestion.insert_data_on_pg scheduled__2022-07-02T00:00:00+00:00 [queued]>
+[2022-07-03 18:18:35,140] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-03 18:18:35,140] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-03 18:18:35,140] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-03 18:18:35,172] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): insert_data_on_pg> on 2022-07-02 00:00:00+00:00
+[2022-07-03 18:18:35,182] {standard_task_runner.py:52} INFO - Started process 89 to run task
+[2022-07-03 18:18:35,186] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'Raize_ingestion', 'insert_data_on_pg', 'scheduled__2022-07-02T00:00:00+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/dag_raizen_ingestion.py', '--cfg-path', '/tmp/tmpbm0kmd1i', '--error-file', '/tmp/tmp3_xp3rtj']
+[2022-07-03 18:18:35,187] {standard_task_runner.py:80} INFO - Job 27: Subtask insert_data_on_pg
+[2022-07-03 18:18:35,293] {task_command.py:370} INFO - Running <TaskInstance: Raize_ingestion.insert_data_on_pg scheduled__2022-07-02T00:00:00+00:00 [running]> on host 66e23168c4c8
+[2022-07-03 18:18:35,407] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Raize_ingestion
+AIRFLOW_CTX_TASK_ID=insert_data_on_pg
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-02T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-02T00:00:00+00:00
+[2022-07-03 18:18:35,409] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 179, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_raizen_ingestion.py", line 11, in inseret_data
+    from dags.dag_raizen_ingestion import ExcelToPG
+ModuleNotFoundError: No module named 'dags'
+[2022-07-03 18:18:35,424] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=Raize_ingestion, task_id=insert_data_on_pg, execution_date=20220702T000000, start_date=20220703T181835, end_date=20220703T181835
+[2022-07-03 18:18:35,447] {standard_task_runner.py:97} ERROR - Failed to execute job 27 for task insert_data_on_pg (No module named 'dags'; 89)
+[2022-07-03 18:18:35,493] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-03 18:18:35,550] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
