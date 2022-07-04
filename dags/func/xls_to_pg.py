@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 
 class ExcelToPG():
 
-    def get_data(url: String, sheet_name: String, schema: String, table:String):
+    def get_data_from_url(url: String, sheet_name: String, schema: String, table:String):
         
         # r = requests.get(url)
         # open('tmp_raizen.xls', 'wb').write(r.content)
@@ -23,6 +23,8 @@ class ExcelToPG():
 
         #inserting data
         table_data = schema + '.' + table
-        df.to_sql(name=table_data, con=engine, if_exists='replace',index=False)
+        df.to_sql(name=table, con=engine, if_exists='replace',index=False)
+
+
 
 

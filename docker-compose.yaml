@@ -59,6 +59,18 @@ x-airflow-common:
     AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth'
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- pandas xlrd psycopg2-binary}
+    AIRFLOW_CONN_URL_CONNID: '{
+    "conn_type": "http",
+    "host": "https://github.com"
+    }'
+    AIRFLOW_CONN_POSTGRES_CONNID: '{
+    "conn_type": "Postgres",
+    "host": "postgres-raizen",
+    "schema": "postgres",
+    "login": "raizen",
+    "password": "raizen",
+    "port": "5432"
+    }'
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
