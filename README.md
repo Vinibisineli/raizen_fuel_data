@@ -54,7 +54,7 @@ The process used in this pipeline was ELT. As we were extrating the data from UR
 
 ## Airflow credentials
 
-Acess airflow on link: https://www.localhost:8080
+Acess airflow on link: http://www.localhost:8080
 
 Login: airflow  
 Password: airflow
