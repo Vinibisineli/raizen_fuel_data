@@ -39,10 +39,11 @@ select * from nov
 union all
 select * from dez
 )
-insert into public.sales_diesel (year_month,uf,product,volume)
+insert into public.sales_diesel (year_month,uf,product,volume,unit)
 select ano_mes as year_month,
 c_uf as uf,
 combustivel as product,
-mes as volume
+mes as volume,
+estado as unit 
 from union_table
 ON CONFLICT DO NOTHING;

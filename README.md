@@ -52,6 +52,13 @@ $ docker compose up -d
 
 The process used in this pipeline was ELT. As we were extrating the data from URL, and that could be inaccessible at any time, I collect the data and transform in a JSON file(Parquet would be a better option) to store the raw data in a cheap storage as https://www.backblaze.com/. After that I load in PostgreSQL to transform and use the data.
 
+## Airflow credentials
+
+Acess airflow on link: https://www.localhost:8080
+
+Login: airflow  
+Password: airflow
+
 ## Improvements
 
 ### Cloud
