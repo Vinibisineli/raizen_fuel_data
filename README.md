@@ -56,8 +56,15 @@ The process used in this pipeline was ELT. As we were extrating the data from UR
 
 Acess airflow on link: http://www.localhost:8080
 
-Login: airflow  
-Password: airflow
+__Login:__ airflow  
+__Password:__ airflow
+
+## PostgresSQL credentials
+
+__Host:__ localhost  
+__Port:__ 5432  
+__Login:__ raizen  
+__Password:__ raizen
 
 ## Improvements
 
